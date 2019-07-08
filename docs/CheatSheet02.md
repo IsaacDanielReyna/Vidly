@@ -2,6 +2,11 @@
 
 **Code-first Migration**
 
+First enable migrations by navigating the menu to Tools, NuGet Package Manager, Package Manager Console.
+
+```
+enable-migrations
+```
 ```
 add-migration <name>
 add-migration <name> -force (to overwrite the last migration)
