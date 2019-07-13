@@ -14,6 +14,9 @@ namespace Vidly.Models
         [StringLength(255)] // varchar(255)
         public string Name { get; set; }
 
+        // DateTime type must be nullable, because it has default a value.
+        public DateTime? Birthdate { get; set; }
+
         public bool IsSubscribedToNewsLetter { get; set; }
 
         // Navigation Property: Loads a Customer's entire MembershipType object
