@@ -42,7 +42,7 @@ namespace Vidly.Controllers
                 _context.Customers.Add(customer); // adds changes to memeory
             else
             {
-                var customerInDb = _context.Customers.SingleOrDefault(c => c.Id == customer.Id);
+                var customerInDb = _context.Customers.Single(c => c.Id == customer.Id);
 
                 customerInDb.Name = customer.Name;
                 customerInDb.Birthdate = customer.Birthdate;
