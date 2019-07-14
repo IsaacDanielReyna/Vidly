@@ -207,9 +207,22 @@
     <Compile Include="Migrations\201907130449061_AddBirthdateToCustomer.Designer.cs">
       <DependentUpon>201907130449061_AddBirthdateToCustomer.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201907132135573_AddDbSetMovie.cs" />
+    <Compile Include="Migrations\201907132135573_AddDbSetMovie.Designer.cs">
+      <DependentUpon>201907132135573_AddDbSetMovie.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201907132307304_AddGenreToMovie.cs" />
+    <Compile Include="Migrations\201907132307304_AddGenreToMovie.Designer.cs">
+      <DependentUpon>201907132307304_AddGenreToMovie.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201907132310256_PopulateGenre.cs" />
+    <Compile Include="Migrations\201907132310256_PopulateGenre.Designer.cs">
+      <DependentUpon>201907132310256_PopulateGenre.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Customer.cs" />
+    <Compile Include="Models\Genre.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
     <Compile Include="Models\MembershipType.cs" />
@@ -322,6 +335,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201907130449061_AddBirthdateToCustomer.resx">
       <DependentUpon>201907130449061_AddBirthdateToCustomer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201907132135573_AddDbSetMovie.resx">
+      <DependentUpon>201907132135573_AddDbSetMovie.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201907132307304_AddGenreToMovie.resx">
+      <DependentUpon>201907132307304_AddGenreToMovie.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201907132310256_PopulateGenre.resx">
+      <DependentUpon>201907132310256_PopulateGenre.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
