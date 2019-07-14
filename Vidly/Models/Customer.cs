@@ -14,6 +14,8 @@ namespace Vidly.Models
         [StringLength(255)] // varchar(255)
         public string Name { get; set; }
 
+        // Overrides the input's label
+        [Display(Name = "Date of Birth")]
         // DateTime type must be nullable, because it has default a value.
         public DateTime? Birthdate { get; set; }
 
